@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Lesson 7</string>
+
+    //Texts of Views
+    <string name="editText_hint">Введите ваше имя</string>
+    <string name="btn_datePicker_text">дата</string>
+    <string name="btn_timePicker_text">время</string>
+    <string name="btn_register_text">Зарегистрироваться</string>
+
+    //Texts of Dialogs
+    <string name="dialog_title">Вы уверены, что хотите зарегистрироваться?</string>
+    <string name="dialog_message">Вы все заполнили правильно?</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_no">Нет</string>
+    <string name="timePickerDialog_title">Выберите время</string>
+
+    //Texts of Toasts
+    <string name="toast_greeting">Добро пожаловать!</string>
+    <string name="toast_negative">Пожалуйста, заполните все правильно</string>
 </resources>
