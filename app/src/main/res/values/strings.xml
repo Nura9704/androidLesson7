@@ -15,6 +15,7 @@
     <string name="timePickerDialog_title">Выберите время</string>
 
     //Texts of Toasts
-    <string name="toast_greeting">Добро пожаловать!</string>
+    <string name="toast_greeting">Здравствуйте!</string>
+    <string name="toast_greeting2">Добро пожаловать!</string>
     <string name="toast_negative">Пожалуйста, заполните все правильно</string>
 </resources>

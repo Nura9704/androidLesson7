@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity(), TimePickerDialog.OnTimeSetListener,
         registerPerson()
         pickDate()
         pickTime()
+        Toast.makeText(this, resources.getText(R.string.toast_greeting), Toast.LENGTH_LONG).show()
     }
 
     private fun initViews() {
