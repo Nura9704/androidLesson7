@@ -4,8 +4,6 @@ import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import android.content.Intent
-import android.icu.text.DateFormat.HourCycle
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.DatePicker
@@ -13,10 +11,8 @@ import android.widget.EditText
 import android.widget.TimePicker
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import java.text.DateFormat
-import java.time.Year
+import androidx.appcompat.app.AppCompatActivity
 import java.util.Calendar
-import kotlin.reflect.typeOf
 
 class MainActivity : AppCompatActivity(), TimePickerDialog.OnTimeSetListener,
     DatePickerDialog.OnDateSetListener {
@@ -30,6 +26,7 @@ class MainActivity : AppCompatActivity(), TimePickerDialog.OnTimeSetListener,
     private var dayOfMonth: Int = 0
     private var hourOfDay: Int = 0
     private var minute: Int = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -104,5 +101,4 @@ class MainActivity : AppCompatActivity(), TimePickerDialog.OnTimeSetListener,
     override fun onTimeSet(view: TimePicker?, hourOfDay: Int, minute: Int) {
         timeEditText.setText("$hourOfDay : $minute")
     }
-
 }

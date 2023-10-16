@@ -23,7 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="@string/btn_datePicker_text"
-        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/personNameEditText"
         />
@@ -62,7 +61,6 @@
         android:layout_margin="20dp"
         android:text="@string/btn_register_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/timeEditText"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintTop_toBottomOf="@id/timeEditText"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
